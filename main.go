@@ -22,7 +22,7 @@ func main() {
 	router := gin.Default()
 
 	router.GET("/", func(c *gin.Context) {
-		c.String(200, "Hello world")
+		c.String(200, "Hello world using gin")
 	})
 	routes.AuthRouter(router)
 
