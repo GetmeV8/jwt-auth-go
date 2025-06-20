@@ -2,7 +2,6 @@ package routes
 
 import (
 	"go-jwt-auth/controllers"
-
 	"github.com/gin-gonic/gin"
 )
 
