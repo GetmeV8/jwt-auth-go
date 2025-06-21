@@ -69,7 +69,7 @@ func Login(c *gin.Context) {
 		}
 	}
 
-	// Check if user exists and password matches
+	// Check if user exists and password matchess
 	if foundUser.ID == 0 || foundUser.Password != input.Password {
 		c.JSON(http.StatusUnauthorized, gin.H{"error": "Invalid username or password"})
 		return
