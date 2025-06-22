@@ -60,7 +60,7 @@ func Login(c *gin.Context) {
 		return
 	}
 
-	// Find user by username
+	// Find user by usernamee
 	var foundUser models.User
 	for _, user := range users {
 		if user.Username == input.Username {
